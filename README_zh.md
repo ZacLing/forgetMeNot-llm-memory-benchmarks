@@ -13,7 +13,7 @@
 
 [English](./README.md) | [中文](./README_zh.md) | [English KB](./knowledge_base/en/README.md) | [中文知识库](./knowledge_base/zh/README.md)
 
-当前版本共收录 **69** 份 benchmark 卡片，覆盖 **7** 个大类，并提供中英文双语入口。
+当前版本共收录 **73** 份 benchmark 卡片，覆盖 **7** 个大类，并提供中英文双语入口。
 
 > [!NOTE]
 > 默认入口是英文首页；如果你更希望先看中文整理版，请直接从本页或 `knowledge_base/zh/README.md` 开始。
@@ -28,7 +28,7 @@
 
 | 字段 | 内容 |
 |---|---|
-| Benchmark 卡片数 | 69 |
+| Benchmark 卡片数 | 73 |
 | 分类数 | 7 |
 | 默认入口 | `README.md` |
 | 中文镜像 | `README_zh.md` 与 `knowledge_base/zh/` |
@@ -37,8 +37,8 @@
 
 | 大类 | 数量 | 说明 |
 |---|---:|---|
-| 长上下文理解与推理 | 18 | 这一类 benchmark 聚焦模型在超长文本、代码仓库、长对话历史和结构化长输入中的定位、综合、推理与生成能力，是“给定上下文内工作记忆”的核心评测集合。 |
-| 长上下文针类诊断 | 7 | 这一类 benchmark 主要使用可控合成任务，测试模型是否真的能在长上下文里定位关键信息，并诊断注意力覆盖、检索稳健性和多针区分能力。 |
+| 长上下文理解与推理 | 21 | 这一类 benchmark 聚焦模型在超长文本、代码仓库、长对话历史和结构化长输入中的定位、综合、推理与生成能力，是“给定上下文内工作记忆”的核心评测集合。 |
+| 长上下文针类诊断 | 8 | 这一类 benchmark 主要使用可控合成任务，测试模型是否真的能在长上下文里定位关键信息，并诊断注意力覆盖、检索稳健性和多针区分能力。 |
 | 检索、Embedding 与 RAG | 11 | 这一类 benchmark 将外部知识库、索引或 retriever 视为语义记忆，评测范围从长文档表示学习到端到端 RAG 管线与忠实性。 |
 | 多会话对话记忆与个性化 | 7 | 这一类 benchmark 面向跨会话用户事实、长期项目历史和动态画像建模，关注情景记忆、跨轮追踪与个性化响应。 |
 | 智能体记忆与持续学习 | 12 | 这一类 benchmark 将 memory 放进 agent 任务、环境交互和持续学习场景中，考察的不仅是命中率，还包括长期决策、任务迁移与反馈累积。 |
@@ -77,9 +77,12 @@
 - [AcademicEval](knowledge_base/zh/01_long_context/academiceval.md) ([EN](knowledge_base/en/01_long_context/academiceval.md))：设计：以 arXiv 论文构造学术写作任务（Title/Abstract/Introduction/Related Work），强调 live evaluation 与减少标签泄漏。
 - [Ada-LEval](knowledge_base/zh/01_long_context/ada-leval.md) ([EN](knowledge_base/en/01_long_context/ada-leval.md))：任务：TSort（片段排序）与 BestAnswer（多候选选择），以“长度可调”方式评测长上下文理解。
 - [BAMBOO](knowledge_base/zh/01_long_context/bamboo.md) ([EN](knowledge_base/en/01_long_context/bamboo.md))：组成：10 数据集、5 任务（QA、幻觉检测、文本排序、语言建模、代码补全），强调抗污染与更准确自动评测。
+- [CLongEval](knowledge_base/zh/01_long_context/clongeval.md) ([EN](knowledge_base/en/01_long_context/clongeval.md))：定位：面向中文 long-context LLM 的综合评测集，包含 7 类任务、7,267 个样本，并覆盖 1K 到 100K 的窗口长度。
+- [HELMET](knowledge_base/zh/01_long_context/helmet.md) ([EN](knowledge_base/en/01_long_context/helmet.md))：定位：一个覆盖 7 个应用导向类别的综合型长上下文 benchmark，强调可控长度、更稳定指标与更可靠的整体排序。
 - [∞Bench](knowledge_base/zh/01_long_context/infinitebench.md) ([EN](knowledge_base/en/01_long_context/infinitebench.md))：定位：宣称“首个平均长度超过 100k tokens 的 LLM benchmark”，含合成与现实任务，中英双语。
 - [L-CiteEval](knowledge_base/zh/01_long_context/l-citeeval.md) ([EN](knowledge_base/en/01_long_context/l-citeeval.md))：特征：多任务长上下文 + 必须产出 citations；自动评测引用准确与召回，旨在检测“模型是否真正利用上下文而非靠固有知识”。
 - [L-Eval](knowledge_base/zh/01_long_context/l-eval.md) ([EN](knowledge_base/en/01_long_context/l-eval.md))：构成：20 子任务、508 长文档、2,000+人工标注 query‑response；输入跨度 3k–200k tokens；并讨论评测指标有效性。 任务形态：包含闭集与开放式任务（repo 列出分组与评测方式）。
+- [LV-Eval](knowledge_base/zh/01_long_context/lv-eval.md) ([EN](knowledge_base/en/01_long_context/lv-eval.md))：定位：一个具备 5 档长度、双语 QA 任务和干扰事实插入机制的长上下文 benchmark，最高延伸到 256K。
 - [LongBench-E](knowledge_base/zh/01_long_context/longbench-e.md) ([EN](knowledge_base/en/01_long_context/longbench-e.md))：提出方：作为分析不同输入长度下性能退化的变体，被 lm‑evaluation‑harness 文档明确描述为“均匀长度分布”版本。 目的：把“基准知识/短输入强项”与“真正长上下文能力”在统计上更多解耦（但仍需结合其它无泄漏/可控基准验证）。
 - [LongBench Pro](knowledge_base/zh/01_long_context/longbench-pro.md) ([EN](knowledge_base/en/01_long_context/longbench-pro.md))：年份与规模：2026；1,500 条“自然出现”的长样本，中英双语；8k–256k tokens；11 主任务 25 子任务，并提出多维 taxonomy（依赖范围/长度/难度）。 构造：提出 human‑model 协作构造管线以降低专家标注成本，同时保持可核验性。 用途：适合做更接近真实“长上下文理解”回归测试与细粒度诊断（跨语对齐、有效上下文长度与 claimed length 的差距等）。
 - [LongBench v2](knowledge_base/zh/01_long_context/longbench-v2.md) ([EN](knowledge_base/en/01_long_context/longbench-v2.md))：目标：强调“真实多任务场景下的深度理解与推理”，长度可到 2M words；并声称即便人类专家也难以快速完成。 覆盖：官方项目页与 repo 描述其长度范围、困难度与应用覆盖。
@@ -102,6 +105,7 @@
 - [MRCR](knowledge_base/zh/02_needle_and_diagnostics/mrcr.md) ([EN](knowledge_base/en/02_needle_and_diagnostics/mrcr.md))：公开来源： 在 HuggingFace 发布 MRCR 数据集卡片，描述其为“long context multiple needle in a haystack”，并注明灵感来自 Gemini 提出的 MRCR 评测； 的 Cloud Blog 解释 MRCR 为多轮长对话中复现早前回答/区分相似请求的能力测试。
 - [NeedleBench](knowledge_base/zh/02_needle_and_diagnostics/needlebench.md) ([EN](knowledge_base/en/02_needle_and_diagnostics/needlebench.md))：动机：批评已有基准难以系统控制 needle 深度/数量/推理复杂度，提出合成框架评测双语长上下文的检索与推理。
 - [Needle-in-a-Haystack](knowledge_base/zh/02_needle_and_diagnostics/niah.md) ([EN](knowledge_base/en/02_needle_and_diagnostics/niah.md))：定义：把关键事实随机插入长文本中，询问模型是否能找回；常用于压测“注意力是否能覆盖长上下文”。
+- [NoLiMa](knowledge_base/zh/02_needle_and_diagnostics/nolima.md) ([EN](knowledge_base/en/02_needle_and_diagnostics/nolima.md))：动机：去掉 NIAH 中 question 与 needle 的字面重合捷径，更严格地测试模型是否能通过语义关联完成长上下文检索。
 - [Passkey Retrieval](knowledge_base/zh/02_needle_and_diagnostics/passkey-retrieval.md) ([EN](knowledge_base/en/02_needle_and_diagnostics/passkey-retrieval.md))：来源：Landmark Attention 论文提出并用于评测“长文本中找回随机 passkey 数字”；后续大量长上下文工作复用其设置。
 - [Phonebook](knowledge_base/zh/02_needle_and_diagnostics/phonebook.md) ([EN](knowledge_base/en/02_needle_and_diagnostics/phonebook.md))：典型定义：给定若干姓名-电话号码条目，few-shot 询问某人号码；在 Mamba‑based LM 实证研究中用于长上下文检索能力评估。 数据集：社区在 HuggingFace 上整理 phonebook 数据集集合（如 booydar/phonebook_N16，百万行规模在卡片中可见）。
 

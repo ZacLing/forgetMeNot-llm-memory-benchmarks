@@ -8,7 +8,7 @@
 
 This English index mirrors the repository landing page and points to the detailed benchmark cards in the English knowledge base.
 
-As of the current version, the repository contains **69** benchmark cards across **7** benchmark families, with parallel **English** and **Chinese** cards.
+As of the current version, the repository contains **73** benchmark cards across **7** benchmark families, with parallel **English** and **Chinese** cards.
 
 > [!NOTE]
 > English is the default reading path. Use the Chinese links if you want the manually curated Chinese summaries first.
@@ -33,9 +33,12 @@ This family focuses on retrieval, synthesis, reasoning, and generation inside ve
 - [AcademicEval](01_long_context/academiceval.md) ([CN](../zh/01_long_context/academiceval.md)): A live long-context generation benchmark built from recent arXiv papers for title, abstract, introduction, and related-work writing tasks.
 - [Ada-LEval](01_long_context/ada-leval.md) ([CN](../zh/01_long_context/ada-leval.md)): A length-adaptable benchmark with TSort and BestAnswer for controllable long-context evaluation.
 - [BAMBOO](01_long_context/bamboo.md) ([CN](../zh/01_long_context/bamboo.md)): A contamination-aware long-text benchmark spanning QA, hallucination detection, ranking, language modeling, and code completion.
+- [CLongEval](01_long_context/clongeval.md) ([CN](../zh/01_long_context/clongeval.md)): A dedicated Chinese long-context benchmark with 7 tasks, 7,267 examples, and coverage from 1K to 100K context windows.
+- [HELMET](01_long_context/helmet.md) ([CN](../zh/01_long_context/helmet.md)): A comprehensive long-context benchmark spanning seven application-centric categories, controllable lengths up to 128K, and more reliable evaluation protocols.
 - [∞Bench](01_long_context/infinitebench.md) ([CN](../zh/01_long_context/infinitebench.md)): A bilingual benchmark that mixes synthetic and realistic tasks with average context length beyond 100k tokens.
 - [L-CiteEval](01_long_context/l-citeeval.md) ([CN](../zh/01_long_context/l-citeeval.md)): A citation-grounded long-context benchmark that scores both answer quality and citation precision and recall.
 - [L-Eval](01_long_context/l-eval.md) ([CN](../zh/01_long_context/l-eval.md)): A standardized long-context suite with 20 tasks, 508 long documents, and 2,000+ human-labeled query-response pairs.
+- [LV-Eval](01_long_context/lv-eval.md) ([CN](../zh/01_long_context/lv-eval.md)): A balanced bilingual long-context QA benchmark with five length levels up to 256K and explicit mitigation of leakage and literal-matching shortcuts.
 - [LongBench-E](01_long_context/longbench-e.md) ([CN](../zh/01_long_context/longbench-e.md)): A uniform-length evaluation variant of LongBench designed to decouple true long-context ability from short-context bias.
 - [LongBench Pro](01_long_context/longbench-pro.md) ([CN](../zh/01_long_context/longbench-pro.md)): A more realistic bilingual long-context benchmark with 1,500 naturally occurring long samples and a fine-grained taxonomy.
 - [LongBench v2](01_long_context/longbench-v2.md) ([CN](../zh/01_long_context/longbench-v2.md)): A realistic multitask benchmark with 8k-to-2M-word contexts targeting deep understanding and reasoning.
@@ -58,6 +61,7 @@ This family uses controllable synthetic setups to test whether a model can truly
 - [MRCR](02_needle_and_diagnostics/mrcr.md) ([CN](../zh/02_needle_and_diagnostics/mrcr.md)): A multiple-needle long-context benchmark focused on multi-round retrieval and distinguishing similar earlier requests.
 - [NeedleBench](02_needle_and_diagnostics/needlebench.md) ([CN](../zh/02_needle_and_diagnostics/needlebench.md)): A synthetic bilingual benchmark that systematically varies needle depth, density, and reasoning difficulty.
 - [Needle-in-a-Haystack](02_needle_and_diagnostics/niah.md) ([CN](../zh/02_needle_and_diagnostics/niah.md)): The canonical needle-in-a-haystack stress test that inserts key facts into long contexts and asks models to recover them.
+- [NoLiMa](02_needle_and_diagnostics/nolima.md) ([CN](../zh/02_needle_and_diagnostics/nolima.md)): A NIAH-style benchmark that removes lexical-overlap shortcuts and forces models to retrieve needles through latent semantic association rather than literal matching.
 - [Passkey Retrieval](02_needle_and_diagnostics/passkey-retrieval.md) ([CN](../zh/02_needle_and_diagnostics/passkey-retrieval.md)): A classic passkey recall setup, originating from Landmark Attention, for testing retrieval of a hidden random key.
 - [Phonebook](02_needle_and_diagnostics/phonebook.md) ([CN](../zh/02_needle_and_diagnostics/phonebook.md)): A task family that measures long-context retrieval by querying names and phone numbers from large lookup tables.
 

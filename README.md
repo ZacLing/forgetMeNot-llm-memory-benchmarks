@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/benchmarks-69-0f766e?style=flat-square" alt="69 benchmarks">
+  <img src="https://img.shields.io/badge/benchmarks-73-0f766e?style=flat-square" alt="73 benchmarks">
   <img src="https://img.shields.io/badge/families-7-1d4ed8?style=flat-square" alt="7 families">
   <img src="https://img.shields.io/badge/language-English%20default-black?style=flat-square" alt="English default">
   <img src="https://img.shields.io/badge/Chinese-mirror-b91c1c?style=flat-square" alt="Chinese mirror">
@@ -37,7 +37,7 @@ ForgetMeNot is built as a bilingual, repository-style survey layer over a struct
 
 | Field | Value |
 |---|---|
-| Benchmark cards | 69 |
+| Benchmark cards | 73 |
 | Benchmark families | 7 |
 | Default entry | `README.md` |
 | Chinese mirror | `README_zh.md` and `knowledge_base/zh/` |
@@ -46,8 +46,8 @@ ForgetMeNot is built as a bilingual, repository-style survey layer over a struct
 
 | Family | Benchmark Cards | Focus |
 |---|---:|---|
-| Long-Context Understanding and Reasoning | 18 | This family focuses on retrieval, synthesis, reasoning, and generation inside very long contexts such as long documents, code repositories, long dialogue histories, and structured long inputs. |
-| Needle Retrieval and Diagnostic Probes | 7 | This family uses controllable synthetic setups to test whether a model can truly locate critical information in long contexts and to diagnose retrieval robustness, attention coverage, and multi-needle disambiguation. |
+| Long-Context Understanding and Reasoning | 21 | This family focuses on retrieval, synthesis, reasoning, and generation inside very long contexts such as long documents, code repositories, long dialogue histories, and structured long inputs. |
+| Needle Retrieval and Diagnostic Probes | 8 | This family uses controllable synthetic setups to test whether a model can truly locate critical information in long contexts and to diagnose retrieval robustness, attention coverage, and multi-needle disambiguation. |
 | Retrieval, Embeddings, and RAG | 11 | This family treats external corpora, indices, and retrievers as semantic memory, spanning long-document representation learning, end-to-end RAG pipelines, and faithfulness evaluation. |
 | Multi-Session Dialogue Memory and Personalization | 7 | This family targets episodic memory across sessions, long-running user history, and dynamic personalization, with emphasis on cross-turn tracking and user-aware responses. |
 | Agent Memory and Continual Learning | 12 | This family places memory inside agent tasks, environment interaction, and continual-learning settings, evaluating not only recall but also long-term decision quality, task transfer, and feedback accumulation. |
@@ -86,9 +86,12 @@ This family focuses on retrieval, synthesis, reasoning, and generation inside ve
 - [AcademicEval](knowledge_base/en/01_long_context/academiceval.md) ([CN](knowledge_base/zh/01_long_context/academiceval.md)): A live long-context generation benchmark built from recent arXiv papers for title, abstract, introduction, and related-work writing tasks.
 - [Ada-LEval](knowledge_base/en/01_long_context/ada-leval.md) ([CN](knowledge_base/zh/01_long_context/ada-leval.md)): A length-adaptable benchmark with TSort and BestAnswer for controllable long-context evaluation.
 - [BAMBOO](knowledge_base/en/01_long_context/bamboo.md) ([CN](knowledge_base/zh/01_long_context/bamboo.md)): A contamination-aware long-text benchmark spanning QA, hallucination detection, ranking, language modeling, and code completion.
+- [CLongEval](knowledge_base/en/01_long_context/clongeval.md) ([CN](knowledge_base/zh/01_long_context/clongeval.md)): A dedicated Chinese long-context benchmark with 7 tasks, 7,267 examples, and coverage from 1K to 100K context windows.
+- [HELMET](knowledge_base/en/01_long_context/helmet.md) ([CN](knowledge_base/zh/01_long_context/helmet.md)): A comprehensive long-context benchmark spanning seven application-centric categories, controllable lengths up to 128K, and more reliable evaluation protocols.
 - [∞Bench](knowledge_base/en/01_long_context/infinitebench.md) ([CN](knowledge_base/zh/01_long_context/infinitebench.md)): A bilingual benchmark that mixes synthetic and realistic tasks with average context length beyond 100k tokens.
 - [L-CiteEval](knowledge_base/en/01_long_context/l-citeeval.md) ([CN](knowledge_base/zh/01_long_context/l-citeeval.md)): A citation-grounded long-context benchmark that scores both answer quality and citation precision and recall.
 - [L-Eval](knowledge_base/en/01_long_context/l-eval.md) ([CN](knowledge_base/zh/01_long_context/l-eval.md)): A standardized long-context suite with 20 tasks, 508 long documents, and 2,000+ human-labeled query-response pairs.
+- [LV-Eval](knowledge_base/en/01_long_context/lv-eval.md) ([CN](knowledge_base/zh/01_long_context/lv-eval.md)): A balanced bilingual long-context QA benchmark with five length levels up to 256K and explicit mitigation of leakage and literal-matching shortcuts.
 - [LongBench-E](knowledge_base/en/01_long_context/longbench-e.md) ([CN](knowledge_base/zh/01_long_context/longbench-e.md)): A uniform-length evaluation variant of LongBench designed to decouple true long-context ability from short-context bias.
 - [LongBench Pro](knowledge_base/en/01_long_context/longbench-pro.md) ([CN](knowledge_base/zh/01_long_context/longbench-pro.md)): A more realistic bilingual long-context benchmark with 1,500 naturally occurring long samples and a fine-grained taxonomy.
 - [LongBench v2](knowledge_base/en/01_long_context/longbench-v2.md) ([CN](knowledge_base/zh/01_long_context/longbench-v2.md)): A realistic multitask benchmark with 8k-to-2M-word contexts targeting deep understanding and reasoning.
@@ -111,6 +114,7 @@ This family uses controllable synthetic setups to test whether a model can truly
 - [MRCR](knowledge_base/en/02_needle_and_diagnostics/mrcr.md) ([CN](knowledge_base/zh/02_needle_and_diagnostics/mrcr.md)): A multiple-needle long-context benchmark focused on multi-round retrieval and distinguishing similar earlier requests.
 - [NeedleBench](knowledge_base/en/02_needle_and_diagnostics/needlebench.md) ([CN](knowledge_base/zh/02_needle_and_diagnostics/needlebench.md)): A synthetic bilingual benchmark that systematically varies needle depth, density, and reasoning difficulty.
 - [Needle-in-a-Haystack](knowledge_base/en/02_needle_and_diagnostics/niah.md) ([CN](knowledge_base/zh/02_needle_and_diagnostics/niah.md)): The canonical needle-in-a-haystack stress test that inserts key facts into long contexts and asks models to recover them.
+- [NoLiMa](knowledge_base/en/02_needle_and_diagnostics/nolima.md) ([CN](knowledge_base/zh/02_needle_and_diagnostics/nolima.md)): A NIAH-style benchmark that removes lexical-overlap shortcuts and forces models to retrieve needles through latent semantic association rather than literal matching.
 - [Passkey Retrieval](knowledge_base/en/02_needle_and_diagnostics/passkey-retrieval.md) ([CN](knowledge_base/zh/02_needle_and_diagnostics/passkey-retrieval.md)): A classic passkey recall setup, originating from Landmark Attention, for testing retrieval of a hidden random key.
 - [Phonebook](knowledge_base/en/02_needle_and_diagnostics/phonebook.md) ([CN](knowledge_base/zh/02_needle_and_diagnostics/phonebook.md)): A task family that measures long-context retrieval by querying names and phone numbers from large lookup tables.
 

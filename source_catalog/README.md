@@ -14,7 +14,7 @@ This directory collects the structured source cards used to build the bilingual 
 
 ## Statistics
 
-- Benchmark cards: 69
+- Benchmark cards: 73
 - Top-level categories: 7
 
 ## Long-Context Understanding and Reasoning
@@ -24,8 +24,11 @@ This family focuses on localization, synthesis, reasoning, and generation over l
 - [AcademicEval](01_long_context/academiceval.md): Comprehensive Long-Context Tasks; primary paper title: `AcademicEval: Live Long-Context LLM Benchmark`; first year: `2025`.
 - [Ada-LEval](01_long_context/ada-leval.md): Diagnostic Suites and Standardized Evaluation; primary paper title: `Ada-LEval: Evaluating long-context LLMs with length-adaptable benchmarks`; first year: `2024`.
 - [BAMBOO](01_long_context/bamboo.md): Comprehensive Long-Context Tasks; primary paper title: `BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities of Large Language Models`; first year: `2024`.
+- [CLongEval](01_long_context/clongeval.md): Comprehensive Long-Context Tasks; primary paper title: `CLongEval: A Chinese Benchmark for Evaluating Long-Context Large Language Models`; first year: `2024`.
+- [HELMET](01_long_context/helmet.md): Comprehensive Long-Context Tasks; primary paper title: `HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly`; first year: `2024`.
 - [L-CiteEval](01_long_context/l-citeeval.md): Citation Grounding and Faithfulness; primary paper title: `L-CiteEval: Do Long-Context Models Truly Leverage Context for Responding?`; first year: `2024`.
 - [L-Eval](01_long_context/l-eval.md): Diagnostic Suites and Standardized Evaluation; primary paper title: `L-Eval: Instituting Standardized Evaluation for Long Context Language Models`; first year: `2023`.
+- [LV-Eval](01_long_context/lv-eval.md): Comprehensive Long-Context Tasks; primary paper title: `LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K`; first year: `2024`.
 - [LongBench](01_long_context/longbench.md): Comprehensive Long-Context Tasks; primary paper title: `LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding`; first year: `2024`.
 - [LongBench Pro](01_long_context/longbench-pro.md): Comprehensive Long-Context Tasks; primary paper title: `LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark`; first year: `2026`.
 - [LongBench v2](01_long_context/longbench-v2.md): Comprehensive Long-Context Tasks; primary paper title: `LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks`; first year: `2025`.
@@ -50,6 +53,7 @@ This family uses controllable synthetic setups to diagnose whether a model truly
 - [Needle-in-a-Haystack](02_needle_and_diagnostics/niah.md): Needle / Passkey / Synthetic Diagnostics; primary paper title: `Needle In A Haystack - Pressure Testing LLMs`; first year: `2024`.
 - [NeedleBench](02_needle_and_diagnostics/needlebench.md): Needle / Passkey / Synthetic Diagnostics; primary paper title: `NeedleBench: Evaluating LLM Retrieval and Reasoning Across Varying Information Densities`; first year: `2025`.
 - [Passkey Retrieval](02_needle_and_diagnostics/passkey-retrieval.md): Needle / Passkey / Synthetic Diagnostics; primary paper title: `Landmark Attention: Random-Access Infinite Context Length for Transformers`; first year: `2023`.
+- [NoLiMa](02_needle_and_diagnostics/nolima.md): Needle / Passkey / Synthetic Diagnostics; primary paper title: `NoLiMa: Long-Context Evaluation Beyond Literal Matching`; first year: `2025`.
 - [Phonebook](02_needle_and_diagnostics/phonebook.md): Multi-Needle / Structured Retrieval; primary paper title: `An Empirical Study of Mamba-based Language Models`; first year: `2024`.
 
 ## Retrieval, Embeddings, and RAG
