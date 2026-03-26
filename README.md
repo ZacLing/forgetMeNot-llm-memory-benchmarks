@@ -3,10 +3,6 @@
 > A repository collecting benchmarks for LLM memory.
 
 <p align="center">
-  <img src="./assets/cover.svg" alt="ForgetMeNot cover" width="100%">
-</p>
-
-<p align="center">
   <strong>A curated bilingual knowledge base of LLM memory benchmarks.</strong><br/>
   Long-context reasoning, dialogue memory, agent memory, RAG, continual learning, and multimodal long-horizon evaluation.
 </p>
