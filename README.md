@@ -1,4 +1,4 @@
-# ForgetMeNot
+# <img src="./assets/forgetmenot_logo.png" alt="ForgetMeNot logo" width="36"> ForgetMeNot
 
 > A repository collecting benchmarks for LLM memory.
 

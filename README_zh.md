@@ -1,4 +1,4 @@
-# ForgetMeNot 中文索引
+# <img src="./assets/forgetmenot_logo.png" alt="ForgetMeNot logo" width="36"> ForgetMeNot 中文索引
 
 > 一个系统收集各类 LLM memory benchmark 的仓库。
 
