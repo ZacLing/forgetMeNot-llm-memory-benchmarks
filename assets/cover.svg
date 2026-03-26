@@ -1,0 +1,77 @@
+<svg width="1600" height="720" viewBox="0 0 1600 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1460" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F3E8"/>
+      <stop offset="0.52" stop-color="#E6F4F1"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="280" y1="180" x2="1220" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#F4FBFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="330" y1="280" x2="1250" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="0.5" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#B91C1C"/>
+    </linearGradient>
+    <filter id="shadow" x="214" y="118" width="1172" height="484" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="16"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.12549 0 0 0 0 0.207843 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="720" rx="32" fill="url(#bg)"/>
+  <circle cx="190" cy="150" r="86" fill="#F59E0B" fill-opacity="0.12"/>
+  <circle cx="1410" cy="580" r="118" fill="#0F766E" fill-opacity="0.12"/>
+  <circle cx="1300" cy="124" r="52" fill="#1D4ED8" fill-opacity="0.1"/>
+
+  <g filter="url(#shadow)">
+    <rect x="270" y="170" width="1060" height="372" rx="30" fill="url(#card)"/>
+    <rect x="270" y="170" width="1060" height="372" rx="30" stroke="#D6E4EA" stroke-width="2"/>
+  </g>
+
+  <rect x="330" y="244" width="920" height="18" rx="9" fill="url(#accent)"/>
+
+  <text x="330" y="348" fill="#0F172A" font-family="'Georgia', 'Times New Roman', serif" font-size="88" font-weight="700" letter-spacing="1.2">
+    ForgetMeNot
+  </text>
+  <text x="332" y="405" fill="#334155" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28">
+    A curated repository collecting benchmarks for LLM memory.
+  </text>
+  <text x="332" y="450" fill="#475569" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">
+    Long context, dialogue memory, agent memory, retrieval, knowledge editing, and multimodal evaluation.
+  </text>
+
+  <g>
+    <rect x="1080" y="286" width="118" height="120" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="1110" y="316" width="60" height="12" rx="6" fill="#0F766E"/>
+    <rect x="1110" y="340" width="48" height="10" rx="5" fill="#94A3B8"/>
+    <rect x="1110" y="360" width="72" height="10" rx="5" fill="#94A3B8"/>
+    <rect x="1110" y="380" width="54" height="10" rx="5" fill="#94A3B8"/>
+  </g>
+  <g>
+    <rect x="1220" y="318" width="118" height="120" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="1250" y="348" width="60" height="12" rx="6" fill="#1D4ED8"/>
+    <rect x="1250" y="372" width="48" height="10" rx="5" fill="#94A3B8"/>
+    <rect x="1250" y="392" width="72" height="10" rx="5" fill="#94A3B8"/>
+  </g>
+  <g stroke="#94A3B8" stroke-width="3">
+    <path d="M1198 346H1220"/>
+    <path d="M1140 406L1220 378"/>
+    <path d="M1080 286L986 250"/>
+  </g>
+  <g fill="#B91C1C">
+    <circle cx="986" cy="250" r="10"/>
+    <circle cx="1198" cy="346" r="10"/>
+    <circle cx="1140" cy="406" r="10"/>
+  </g>
+
+  <text x="332" y="512" fill="#64748B" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">
+    Bilingual benchmark cards with links, summaries, and BibTeX.
+  </text>
+</svg>
