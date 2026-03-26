@@ -44,7 +44,7 @@ ForgetMeNot is built as a bilingual, repository-style survey layer over a struct
 
 ## Coverage Snapshot
 
-| Family | Cards | Focus |
+| Family | Benchmark Cards | Focus |
 |---|---:|---|
 | Long-Context Understanding and Reasoning | 18 | This family focuses on retrieval, synthesis, reasoning, and generation inside very long contexts such as long documents, code repositories, long dialogue histories, and structured long inputs. |
 | Needle Retrieval and Diagnostic Probes | 7 | This family uses controllable synthetic setups to test whether a model can truly locate critical information in long contexts and to diagnose retrieval robustness, attention coverage, and multi-needle disambiguation. |
