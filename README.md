@@ -70,8 +70,6 @@ ForgetMeNot is built as a bilingual, repository-style survey layer over a struct
 - `knowledge_base/en/`: English benchmark cards.
 - `knowledge_base/zh/`: Chinese benchmark cards.
 - `source_catalog/`: internal structured source cards used to regenerate the bilingual knowledge base.
-- `scripts/build_benchmark_catalog.py`: generator for the structured benchmark source catalog.
-- `scripts/build_bilingual_repo.py`: generator for the bilingual repository landing pages and cards.
 
 ## Table of Contents
 

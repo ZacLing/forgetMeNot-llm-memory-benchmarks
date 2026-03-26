@@ -61,8 +61,6 @@
 - `knowledge_base/en/`：英文 benchmark 卡片。
 - `knowledge_base/zh/`：中文 benchmark 卡片。
 - `source_catalog/`：用于重建双语知识库的内部结构化源卡片。
-- `scripts/build_benchmark_catalog.py`：结构化 benchmark 源目录生成脚本。
-- `scripts/build_bilingual_repo.py`：双语首页与卡片生成脚本。
 
 ## 目录
 
