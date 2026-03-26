@@ -3,10 +3,6 @@
 > 一个系统收集各类 LLM memory benchmark 的仓库。
 
 <p align="center">
-  <img src="./assets/cover.svg" alt="ForgetMeNot cover" width="100%">
-</p>
-
-<p align="center">
   <strong>一个面向 LLM memory benchmark 的双语知识库。</strong><br/>
   覆盖长上下文理解、对话记忆、agent memory、RAG、持续学习与多模态长程推理。
 </p>
