@@ -3,7 +3,7 @@ name: Mem-Gallery
 slug: mem-gallery
 language: en
 category: Multi-Session Dialogue Memory and Personalization
-subcategory: 长期对话记忆
+subcategory: Long-Term Dialogue Memory
 memory_type: Episodic / Multi-Session
 year: "2026"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/04_dialogue_memory/mem-gallery.md
 |---|---|
 | Benchmark | Mem-Gallery |
 | Category | Multi-Session Dialogue Memory and Personalization |
-| Subcategory | 长期对话记忆 |
+| Subcategory | Long-Term Dialogue Memory |
 | Memory Focus | Episodic / Multi-Session |
 | First Year | 2026 |
 | Primary Source Type | paper |

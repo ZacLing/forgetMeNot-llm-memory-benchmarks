@@ -3,7 +3,7 @@ name: Passkey Retrieval
 slug: passkey-retrieval
 language: en
 category: Needle Retrieval and Diagnostic Probes
-subcategory: Needle / Passkey / 合成诊断
+subcategory: Needle / Passkey / Synthetic Diagnostics
 memory_type: Working / In-Context
 year: "2023"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/02_needle_and_diagnostics/passkey-retrieval.md
 |---|---|
 | Benchmark | Passkey Retrieval |
 | Category | Needle Retrieval and Diagnostic Probes |
-| Subcategory | Needle / Passkey / 合成诊断 |
+| Subcategory | Needle / Passkey / Synthetic Diagnostics |
 | Memory Focus | Working / In-Context |
 | First Year | 2023 |
 | Primary Source Type | paper |

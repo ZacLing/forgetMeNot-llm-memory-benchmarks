@@ -3,7 +3,7 @@ name: Ego4D Episodic Memory
 slug: ego4d-episodic-memory
 language: en
 category: Multimodal Long-Horizon Memory and Retrieval-Reasoning
-subcategory: 视频长上下文
+subcategory: Long-Context Video
 memory_type: Multimodal Long-Horizon
 year: "2021"
 primary_source_kind: official-benchmark-page
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/07_multimodal/ego4d-episodic-memory.md
 |---|---|
 | Benchmark | Ego4D Episodic Memory |
 | Category | Multimodal Long-Horizon Memory and Retrieval-Reasoning |
-| Subcategory | 视频长上下文 |
+| Subcategory | Long-Context Video |
 | Memory Focus | Multimodal Long-Horizon |
 | First Year | 2021 |
 | Primary Source Type | official-benchmark-page |

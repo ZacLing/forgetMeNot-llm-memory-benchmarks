@@ -3,7 +3,7 @@ name: Phonebook
 slug: phonebook
 language: en
 category: Needle Retrieval and Diagnostic Probes
-subcategory: 多针 / 结构化检索
+subcategory: Multi-Needle / Structured Retrieval
 memory_type: Working / In-Context
 year: "2024"
 primary_source_kind: task-family
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/02_needle_and_diagnostics/phonebook.md
 |---|---|
 | Benchmark | Phonebook |
 | Category | Needle Retrieval and Diagnostic Probes |
-| Subcategory | 多针 / 结构化检索 |
+| Subcategory | Multi-Needle / Structured Retrieval |
 | Memory Focus | Working / In-Context |
 | First Year | 2024 |
 | Primary Source Type | task-family |

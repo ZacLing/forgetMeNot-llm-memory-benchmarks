@@ -3,7 +3,7 @@ name: MRCR
 slug: mrcr
 language: en
 category: Needle Retrieval and Diagnostic Probes
-subcategory: 多针 / 结构化检索
+subcategory: Multi-Needle / Structured Retrieval
 memory_type: Working / In-Context
 year: ""
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/02_needle_and_diagnostics/mrcr.md
 |---|---|
 | Benchmark | MRCR |
 | Category | Needle Retrieval and Diagnostic Probes |
-| Subcategory | 多针 / 结构化检索 |
+| Subcategory | Multi-Needle / Structured Retrieval |
 | Memory Focus | Working / In-Context |
 | First Year |  |
 | Primary Source Type | paper |

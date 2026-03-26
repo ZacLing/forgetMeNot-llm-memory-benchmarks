@@ -3,7 +3,7 @@ name: CounterFact
 slug: counterfact
 language: en
 category: Knowledge Editing and Semantic Memory Updates
-subcategory: 知识编辑评测
+subcategory: Knowledge Editing Evaluation
 memory_type: Semantic Memory Update
 year: "2023"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/06_knowledge_editing/counterfact.md
 |---|---|
 | Benchmark | CounterFact |
 | Category | Knowledge Editing and Semantic Memory Updates |
-| Subcategory | 知识编辑评测 |
+| Subcategory | Knowledge Editing Evaluation |
 | Memory Focus | Semantic Memory Update |
 | First Year | 2023 |
 | Primary Source Type | paper |

@@ -3,7 +3,7 @@ name: QAEdit + WILD
 slug: qaeedit-wild
 language: en
 category: Knowledge Editing and Semantic Memory Updates
-subcategory: 知识编辑评测
+subcategory: Knowledge Editing Evaluation
 memory_type: Semantic Memory Update
 year: "2025"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/06_knowledge_editing/qaeedit-wild.md
 |---|---|
 | Benchmark | QAEdit + WILD |
 | Category | Knowledge Editing and Semantic Memory Updates |
-| Subcategory | 知识编辑评测 |
+| Subcategory | Knowledge Editing Evaluation |
 | Memory Focus | Semantic Memory Update |
 | First Year | 2025 |
 | Primary Source Type | paper |

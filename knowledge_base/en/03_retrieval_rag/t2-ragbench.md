@@ -3,7 +3,7 @@ name: T2-RAGBench
 slug: t2-ragbench
 language: en
 category: Retrieval, Embeddings, and RAG
-subcategory: 端到端 RAG 与忠实性
+subcategory: End-to-End RAG and Faithfulness
 memory_type: Semantic / Retrieval-Augmented
 year: "2026"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/03_retrieval_rag/t2-ragbench.md
 |---|---|
 | Benchmark | T2-RAGBench |
 | Category | Retrieval, Embeddings, and RAG |
-| Subcategory | 端到端 RAG 与忠实性 |
+| Subcategory | End-to-End RAG and Faithfulness |
 | Memory Focus | Semantic / Retrieval-Augmented |
 | First Year | 2026 |
 | Primary Source Type | paper |

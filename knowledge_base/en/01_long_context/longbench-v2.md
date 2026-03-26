@@ -3,7 +3,7 @@ name: LongBench v2
 slug: longbench-v2
 language: en
 category: Long-Context Understanding and Reasoning
-subcategory: 长上下文综合任务
+subcategory: Comprehensive Long-Context Tasks
 memory_type: Working / In-Context
 year: "2025"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/01_long_context/longbench-v2.md
 |---|---|
 | Benchmark | LongBench v2 |
 | Category | Long-Context Understanding and Reasoning |
-| Subcategory | 长上下文综合任务 |
+| Subcategory | Comprehensive Long-Context Tasks |
 | Memory Focus | Working / In-Context |
 | First Year | 2025 |
 | Primary Source Type | paper |

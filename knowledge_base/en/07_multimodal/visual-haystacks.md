@@ -3,7 +3,7 @@ name: Visual Haystacks
 slug: visual-haystacks
 language: en
 category: Multimodal Long-Horizon Memory and Retrieval-Reasoning
-subcategory: 多图 / 多模态检索推理
+subcategory: Multi-Image / Multimodal Retrieval and Reasoning
 memory_type: Multimodal Long-Horizon
 year: "2025"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/07_multimodal/visual-haystacks.md
 |---|---|
 | Benchmark | Visual Haystacks |
 | Category | Multimodal Long-Horizon Memory and Retrieval-Reasoning |
-| Subcategory | 多图 / 多模态检索推理 |
+| Subcategory | Multi-Image / Multimodal Retrieval and Reasoning |
 | Memory Focus | Multimodal Long-Horizon |
 | First Year | 2025 |
 | Primary Source Type | paper |

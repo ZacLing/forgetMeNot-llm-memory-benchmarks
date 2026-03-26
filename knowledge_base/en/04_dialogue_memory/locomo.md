@@ -3,7 +3,7 @@ name: LoCoMo
 slug: locomo
 language: en
 category: Multi-Session Dialogue Memory and Personalization
-subcategory: 长期对话记忆
+subcategory: Long-Term Dialogue Memory
 memory_type: Episodic / Multi-Session
 year: "2024"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/04_dialogue_memory/locomo.md
 |---|---|
 | Benchmark | LoCoMo |
 | Category | Multi-Session Dialogue Memory and Personalization |
-| Subcategory | 长期对话记忆 |
+| Subcategory | Long-Term Dialogue Memory |
 | Memory Focus | Episodic / Multi-Session |
 | First Year | 2024 |
 | Primary Source Type | paper |

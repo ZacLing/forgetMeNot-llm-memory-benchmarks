@@ -3,7 +3,7 @@ name: CLLE
 slug: clle
 language: en
 category: Agent Memory and Continual Learning
-subcategory: 持续学习与反馈记忆
+subcategory: Continual Learning and Feedback Memory
 memory_type: Agentic / Procedural / Continual
 year: "2022"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/05_agent_memory/clle.md
 |---|---|
 | Benchmark | CLLE |
 | Category | Agent Memory and Continual Learning |
-| Subcategory | 持续学习与反馈记忆 |
+| Subcategory | Continual Learning and Feedback Memory |
 | Memory Focus | Agentic / Procedural / Continual |
 | First Year | 2022 |
 | Primary Source Type | paper |

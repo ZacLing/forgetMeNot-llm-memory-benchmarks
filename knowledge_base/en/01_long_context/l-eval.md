@@ -3,7 +3,7 @@ name: L-Eval
 slug: l-eval
 language: en
 category: Long-Context Understanding and Reasoning
-subcategory: 诊断套件与标准化评测
+subcategory: Diagnostic Suites and Standardized Evaluation
 memory_type: Working / In-Context
 year: "2023"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/01_long_context/l-eval.md
 |---|---|
 | Benchmark | L-Eval |
 | Category | Long-Context Understanding and Reasoning |
-| Subcategory | 诊断套件与标准化评测 |
+| Subcategory | Diagnostic Suites and Standardized Evaluation |
 | Memory Focus | Working / In-Context |
 | First Year | 2023 |
 | Primary Source Type | paper |

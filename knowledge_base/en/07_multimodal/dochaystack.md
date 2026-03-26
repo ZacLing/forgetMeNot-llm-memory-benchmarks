@@ -3,7 +3,7 @@ name: DocHaystack
 slug: dochaystack
 language: en
 category: Multimodal Long-Horizon Memory and Retrieval-Reasoning
-subcategory: 长文档与视觉文档
+subcategory: Long Documents and Visual Documents
 memory_type: Multimodal Long-Horizon
 year: "2024"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/07_multimodal/dochaystack.md
 |---|---|
 | Benchmark | DocHaystack |
 | Category | Multimodal Long-Horizon Memory and Retrieval-Reasoning |
-| Subcategory | 长文档与视觉文档 |
+| Subcategory | Long Documents and Visual Documents |
 | Memory Focus | Multimodal Long-Horizon |
 | First Year | 2024 |
 | Primary Source Type | paper |

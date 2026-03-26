@@ -3,7 +3,7 @@ name: Video-MME
 slug: video-mme
 language: en
 category: Multimodal Long-Horizon Memory and Retrieval-Reasoning
-subcategory: 视频长上下文
+subcategory: Long-Context Video
 memory_type: Multimodal Long-Horizon
 year: "2025"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/07_multimodal/video-mme.md
 |---|---|
 | Benchmark | Video-MME |
 | Category | Multimodal Long-Horizon Memory and Retrieval-Reasoning |
-| Subcategory | 视频长上下文 |
+| Subcategory | Long-Context Video |
 | Memory Focus | Multimodal Long-Horizon |
 | First Year | 2025 |
 | Primary Source Type | paper |

@@ -3,7 +3,7 @@ name: MTEB
 slug: mteb
 language: en
 category: Retrieval, Embeddings, and RAG
-subcategory: 检索与表示学习
+subcategory: Retrieval and Representation Learning
 memory_type: Semantic / Retrieval-Augmented
 year: "2023"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/03_retrieval_rag/mteb.md
 |---|---|
 | Benchmark | MTEB |
 | Category | Retrieval, Embeddings, and RAG |
-| Subcategory | 检索与表示学习 |
+| Subcategory | Retrieval and Representation Learning |
 | Memory Focus | Semantic / Retrieval-Augmented |
 | First Year | 2023 |
 | Primary Source Type | paper |

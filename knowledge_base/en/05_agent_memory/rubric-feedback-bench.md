@@ -3,7 +3,7 @@ name: Rubric Feedback Bench
 slug: rubric-feedback-bench
 language: en
 category: Agent Memory and Continual Learning
-subcategory: 持续学习与反馈记忆
+subcategory: Continual Learning and Feedback Memory
 memory_type: Agentic / Procedural / Continual
 year: "2026"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/05_agent_memory/rubric-feedback-bench.md
 |---|---|
 | Benchmark | Rubric Feedback Bench |
 | Category | Agent Memory and Continual Learning |
-| Subcategory | 持续学习与反馈记忆 |
+| Subcategory | Continual Learning and Feedback Memory |
 | Memory Focus | Agentic / Procedural / Continual |
 | First Year | 2026 |
 | Primary Source Type | paper |

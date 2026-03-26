@@ -3,7 +3,7 @@ name: LongMemEval
 slug: longmemeval
 language: en
 category: Multi-Session Dialogue Memory and Personalization
-subcategory: 长期对话记忆
+subcategory: Long-Term Dialogue Memory
 memory_type: Episodic / Multi-Session
 year: "2025"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/04_dialogue_memory/longmemeval.md
 |---|---|
 | Benchmark | LongMemEval |
 | Category | Multi-Session Dialogue Memory and Personalization |
-| Subcategory | 长期对话记忆 |
+| Subcategory | Long-Term Dialogue Memory |
 | Memory Focus | Episodic / Multi-Session |
 | First Year | 2025 |
 | Primary Source Type | paper |

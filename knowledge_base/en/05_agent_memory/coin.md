@@ -3,7 +3,7 @@ name: CoIN
 slug: coin
 language: en
 category: Agent Memory and Continual Learning
-subcategory: 持续学习与反馈记忆
+subcategory: Continual Learning and Feedback Memory
 memory_type: Agentic / Procedural / Continual
 year: "2024"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/05_agent_memory/coin.md
 |---|---|
 | Benchmark | CoIN |
 | Category | Agent Memory and Continual Learning |
-| Subcategory | 持续学习与反馈记忆 |
+| Subcategory | Continual Learning and Feedback Memory |
 | Memory Focus | Agentic / Procedural / Continual |
 | First Year | 2024 |
 | Primary Source Type | paper |

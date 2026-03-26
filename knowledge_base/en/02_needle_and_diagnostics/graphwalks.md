@@ -3,7 +3,7 @@ name: GraphWalks
 slug: graphwalks
 language: en
 category: Needle Retrieval and Diagnostic Probes
-subcategory: 多针 / 结构化检索
+subcategory: Multi-Needle / Structured Retrieval
 memory_type: Working / In-Context
 year: "2025"
 primary_source_kind: dataset-only
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/02_needle_and_diagnostics/graphwalks.md
 |---|---|
 | Benchmark | GraphWalks |
 | Category | Needle Retrieval and Diagnostic Probes |
-| Subcategory | 多针 / 结构化检索 |
+| Subcategory | Multi-Needle / Structured Retrieval |
 | Memory Focus | Working / In-Context |
 | First Year | 2025 |
 | Primary Source Type | dataset-only |

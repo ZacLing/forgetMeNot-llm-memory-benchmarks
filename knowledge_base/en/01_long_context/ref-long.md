@@ -3,7 +3,7 @@ name: Ref-Long
 slug: ref-long
 language: en
 category: Long-Context Understanding and Reasoning
-subcategory: 引用定位与忠实性
+subcategory: Citation Grounding and Faithfulness
 memory_type: Working / In-Context
 year: "2025"
 primary_source_kind: paper
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/01_long_context/ref-long.md
 |---|---|
 | Benchmark | Ref-Long |
 | Category | Long-Context Understanding and Reasoning |
-| Subcategory | 引用定位与忠实性 |
+| Subcategory | Citation Grounding and Faithfulness |
 | Memory Focus | Working / In-Context |
 | First Year | 2025 |
 | Primary Source Type | paper |

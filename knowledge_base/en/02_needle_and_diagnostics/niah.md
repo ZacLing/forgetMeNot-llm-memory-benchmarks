@@ -3,7 +3,7 @@ name: Needle-in-a-Haystack
 slug: niah
 language: en
 category: Needle Retrieval and Diagnostic Probes
-subcategory: Needle / Passkey / 合成诊断
+subcategory: Needle / Passkey / Synthetic Diagnostics
 memory_type: Working / In-Context
 year: "2024"
 primary_source_kind: repo-only
@@ -21,7 +21,7 @@ counterpart_zh: ../../zh/02_needle_and_diagnostics/niah.md
 |---|---|
 | Benchmark | Needle-in-a-Haystack |
 | Category | Needle Retrieval and Diagnostic Probes |
-| Subcategory | Needle / Passkey / 合成诊断 |
+| Subcategory | Needle / Passkey / Synthetic Diagnostics |
 | Memory Focus | Working / In-Context |
 | First Year | 2024 |
 | Primary Source Type | repo-only |
