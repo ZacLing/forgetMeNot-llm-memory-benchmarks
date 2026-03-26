@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/cards-69-0f766e?style=flat-square" alt="69 cards">
+  <img src="https://img.shields.io/badge/benchmarks-69-0f766e?style=flat-square" alt="69 benchmarks">
   <img src="https://img.shields.io/badge/families-7-1d4ed8?style=flat-square" alt="7 families">
   <img src="https://img.shields.io/badge/language-English%20default-black?style=flat-square" alt="English default">
   <img src="https://img.shields.io/badge/Chinese-mirror-b91c1c?style=flat-square" alt="Chinese mirror">
