@@ -41,8 +41,6 @@ ForgetMeNot is built as a bilingual, repository-style survey layer over a struct
 | Benchmark families | 7 |
 | Default entry | `README.md` |
 | Chinese mirror | `README_zh.md` and `knowledge_base/zh/` |
-| Contribution guide | `CONTRIBUTING.md` |
-| Citation file | `CITATION.cff` |
 
 ## Coverage Snapshot
 

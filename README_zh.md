@@ -32,8 +32,6 @@
 | 分类数 | 7 |
 | 默认入口 | `README.md` |
 | 中文镜像 | `README_zh.md` 与 `knowledge_base/zh/` |
-| 贡献说明 | `CONTRIBUTING.md` |
-| 引用文件 | `CITATION.cff` |
 
 ## 覆盖概览
 
